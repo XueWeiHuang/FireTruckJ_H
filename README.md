@@ -1,10 +1,10 @@
 # FireTruck
 
 UVA208 solved in C#. This is one of UVA challenges. Most of solutions are based on Java or C++. I solved it C# WPF. The logic I implemented
-was to conduct DFS first to find eligible routes, and then I used Floydd algorithms to make judgements which is serving as pruning. it got
+was to conduct DFS first to find eligible routes, and then I used Floydd algorithms to prune branches. it got
 rid of unnecessary routes to greatly improve the application performance and meet the requirement of processing time. Simple DFS will do
 the work, but Floydd pruning further improves the program and makes it faster. 
-Altough this program can be optimized in MVVM pattern, the main idea here is to optimize the performance rather than design pattern.
+Although this program can be optimized in MVVM pattern, the main idea here is to optimize the performance rather than design pattern.
 
 ### Prerequisites
 
